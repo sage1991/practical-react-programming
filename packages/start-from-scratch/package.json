@@ -1,0 +1,14 @@
+{
+  "name": "start-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:watch": "babel --watch src --out-dir . --presets @babel/preset-react"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
